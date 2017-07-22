@@ -31,5 +31,15 @@
         - ssm.service.impl
 11. Create ssm.controller.BaseController class
 12. Create ssm.model.BaseModel class
+13. Create commons/inc.jsp
+14. Create webapp/assets directory
+15. Create util.Constant interface
+16. Create util.Pagination class
+17. Create dao.GenericDao interface
+18. Create dao.impl.GenericDaoImpl class
+19. Create service.GenericService interface
+20. Create service.impl.GenericServiceImpl class
+21. Create resources/freemarker.xml
+    - freemarker bean    
         
     
