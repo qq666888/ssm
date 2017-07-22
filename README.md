@@ -41,5 +41,20 @@
 20. Create service.impl.GenericServiceImpl class
 21. Create resources/freemarker.xml
     - freemarker bean    
-        
-    
+22. Create commons/page.jsp
+23. import jquery.js into assets/js
+24. Create freemarker templates
+    - code
+        - Dao.ftl
+        - Dao.Impl.ftl
+        - Service.ftl
+        - Service.Impl.ftl
+        - Controller.ftl
+    - config
+        - mapper.ftl
+    - page
+        - index.ftl
+        - add.ftl
+        - list.ftl
+        - edit.ftl
+25. Create ssm.util.ComponentGenerator class
