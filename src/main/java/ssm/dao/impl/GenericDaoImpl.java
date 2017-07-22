@@ -19,14 +19,12 @@ import java.util.List;
  */
 public class GenericDaoImpl<T extends Serializable, ID extends Number> implements GenericDao<T, ID> {
 
-    private final SqlSession sqlSession;
+    @Autowired
+    private SqlSession sqlSession;
     private String namespace;
 
     @SuppressWarnings("unchecked")
-    @Autowired
-    public GenericDaoImpl(SqlSession sqlSession) {
-        this.sqlSession = sqlSession;
-
+    public GenericDaoImpl() {
         ParameterizedType parameterizedType = (ParameterizedType) getClass().getGenericSuperclass();
         Class<T> clazz = (Class<T>) parameterizedType.getActualTypeArguments()[0];
         namespace = StringUtils.uncapitalize(clazz.getSimpleName());

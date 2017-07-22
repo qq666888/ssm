@@ -16,8 +16,8 @@ import java.util.Scanner;
 class ComponentGenerator {
 
     // Configuration
-    private static final String PACKAGE = "demo";
-    private static final String DATABASE = "db_test";
+    private static final String PACKAGE = "ssm";
+    private static final String DATABASE = "db_ssm";
 
     private static final String CODE_PATH = "src/main/java/";
     private static final String PAGE_PATH = "src/main/webapp/";

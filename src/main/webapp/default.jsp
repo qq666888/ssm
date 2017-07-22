@@ -1,14 +1,9 @@
-<%--
-    Created by mingfei.net@gmail.com
-    7/22/17 08:35
-    https://github.com/thu/ssm/
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>$Title$</title>
+    <title>default page</title>
 </head>
 <body>
-$END$
+<h1>DEFAULT</h1>
 </body>
 </html>

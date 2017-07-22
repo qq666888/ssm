@@ -4,6 +4,6 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="freemarker" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
-        <property name="configLocation" value="classpath:template"/>
+        <property name="templateLoaderPath" value="classpath:template"/>
     </bean>
 </beans>
