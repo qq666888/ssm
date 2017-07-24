@@ -14,7 +14,7 @@
         <hr/>
         <table border="1">
             <tr>
-                <th>INDEX</th>
+                <th>COUNT</th>
                 <#assign keys = properties?keys>
                 <#list keys as key>
                 <th>${key?upper_case}</th>

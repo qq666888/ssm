@@ -14,7 +14,7 @@
         <#list columns?keys as key>
             ${'#'}{${columns[key]}}<#if key_has_next>, </#if>
         </#list>
-        );
+        )
     </insert>
     <delete id="remove">
         DELETE FROM ${db}.${table}
