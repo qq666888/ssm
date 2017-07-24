@@ -33,18 +33,6 @@
         FROM ${db}.${table}
         ORDER BY id
     </select>
-    <select id="query" parameterType="${model?lower_case}" resultType="${model?lower_case}">
-        SELECT *
-        FROM ${db}.${table}
-        <where>
-            <if test="id != null and id != ''">
-            ${table}.id = ${'#'}{id}
-            </if>
-        <#list columns?keys as key>
-            <if test="${key} != null and ${key} != ''"> AND ${key} LIKE "%"${'#'}{${columns[key]}}"%"</if>
-        </#list>
-        </where>
-    </select>
     <select id="queryById" resultType="${model?lower_case}">
         SELECT *
         FROM ${db}.${table}
