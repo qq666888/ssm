@@ -7,11 +7,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-/**
- * Created by mingfei.net@gmail.com
- * 7/22/17 09:10
- * https://github.com/thu/ssm/
- */
 public class BaseController {
 
     HttpServletRequest request;

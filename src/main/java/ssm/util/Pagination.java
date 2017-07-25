@@ -7,11 +7,6 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by mingfei.net@gmail.com
- * 7/22/17 09:50
- * https://github.com/thu/ssm/
- */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
